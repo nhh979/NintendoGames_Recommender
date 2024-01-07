@@ -7,5 +7,6 @@
   
 - In the modeling phase, we first transformed the text data in the Gameplay column into the TF-IDF matrix using module `nltk` and `TfidfVectorizer` method from `Sklearn` module. From the TF-IDF matrix, we calculated the similarity distances between the texts by subtracting the `cosine_similarity`, which is from submodule `sklearn.metrics.pairwise`, from 1.  
   
-- Finally, we could suggest the games that are similar to a given game by querying the games that have smallest similarity distance to the given game. For example, below are 5 games that are similar to **"The Legend of Zelda: Tears of the Kingdom"** with their respective similarity distance:
+- Finally, we could suggest the games that are similar to a given game by querying the games that have smallest similarity distance to the given game. For example, below are 5 games that are similar to **"The Legend of Zelda: Tears of the Kingdom"** with their respective similarity distance:  
+  
 ![](https://github.com/nhh979/NintendoGames_Recommender/blob/master/Images/RecommendedGames.png)
